@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn a:hover{
+    color: white;
+}
+.logo{
+    font-weight: bold;
+    color: rgb(153, 155, 20);
+}
+.btn{
+    background-color:rgb(185, 187, 87);
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.btn:hover{
+    color:white;
+}
+.menu{
+    color: black;
+}
+.menu:hover{
+    color: rgb(153, 155, 20);
+    text-decoration: underline;
+}
+.number{
+    background-color: rgb(153, 155, 20);
+    color: white;
+    font-weight: 900;
+}
+.award{
+    font-weight: 700;
+    color: rgb(153, 155, 20);
+}
+.service{
+    font-weight: 500;
+    font-size: 3rem;
+}
+.tech{
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+.three{
+    background-color: rgb(227, 234, 236);
+    padding: 60px 0px;
+}
+.port{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(153, 155, 20);   
+    font-weight: 700;
+}
+.top{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+.idea{
+    color: rgb(153, 155, 20);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.attact{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.talk{
+    color: rgb(153, 155, 20);
+    text-transform: capitalize;
+     font-weight: 700;
+}
+.clients{
+    font-size: 3rem;
+    color: rgb(153, 155, 20);
+    text-transform: capitalize;
+     font-weight: 700;
+}
+footer{
+    background-color: rgb(219, 217, 217);
+}
+.footer{
+    padding-top: 55px;
+    color: black;
+    font-weight: 500;
+}
+.firstpara{
+    opacity: 0.8;
+}
+.row{
+    display: flex;
+    align-items: center;
+    height: 94vh;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.head{
+    text-align: start;
+}
+.twohead{
+    text-align: center;
+    color: rgb(153, 155, 20);
+    font-size: 3rem;
+    font-weight: 600;
+}
+.rowone{
+    height: 50vh;
+}
+.rowtwo{
+    margin-bottom: 200px;
+    height: 5vh;
+}
+.rowthree{
+    height: 30vh;
+}
+.four{
+    margin-top: 200px;
+    text-align: center;
+}
+.fourcol img{
+    width: 350px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rowfour{
+    height: 5vh;
+    margin-bottom: 60px;
+}
+.rowfourone{
+    height: 55vh;
+    margin-top: 70px;
+}
+.rowfive{
+    margin-top: 320px;
+}
+.fivepara,
+.fivehead
+{
+    text-align: start;
+}
+.imgfive,
+.fivedta{
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+}
+.sixdata{
+    text-align: center;
+    margin-top: 100px;
+}
+.sixfour{
+    margin: 20px 0px;
+}
+.seven{
+    text-align: center;
+    margin-top: 150px;
+}
+.rowseven{
+    height: 30vh;
+}
+.footer{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.footertwo{
+    display: flex;
+    justify-content: space-around;
+}
+.cols p{
+    padding-left: 192px;
+}
+.conhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 110vh;
+}
+.conhead h1{
+    font-weight: bold;
+    color: rgb(153, 155, 20);
+}
+.enqone{
+    background-color: rgb(246, 252, 213);
+}
+label{
+    font-weight: bold;
+}
+
+/* media quries */
+@media (max-width:1199px){
+    .fourcol img{
+        width: 300px;
+        height: 180px;
+    }
+    .rowfive{
+        margin-top: 400px;
+    }
+}
+@media (max-width:1085px){
+     .fourcol img{
+        width: 300px;
+        height: 180px;
+    }
+    .rowfive{
+        margin-top: 400px;
+    } 
+}
+@media (max-width:991px){
+    .twohead{
+       margin-top: 100px;
+    }
+    .rowfive {
+        margin-top: 450px;
+        padding: 0px 20px;
+    }
+    .attact{
+    margin-top: 360px;
+    }
+    .colone{
+        padding: 20px 20px;
+    }
+}
+@media (max-width:765px){
+    .rowfive{
+        margin-top: 600px;
+    } 
+    .pimg{
+        width: 400px;
+        height: 300px;
+        padding: 10px;
+    }
+    .pimg2{
+        padding: 50px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+}
+@media (max-width:603px){
+  body{
+      scroll-behavior: none;
+  }
+}
+@media (max-width:563px){
+    body{
+        scroll-behavior: smooth;
+    }
+    .main{
+        width: 455px;
+    }
+}
+@media (max-width:566px){
+    .navbar{
+        margin-left: 30px;
+    }
+    #contact{
+        margin-left: 30px;
+    }
+   
+    .three{
+        margin-left: 30px;
+    }
+}
+@media (max-width:523px){
+    .navbar{
+        margin-left: 30px;
+    }
+    #contact{
+        margin-left: 35px;
+    }
+   
+    .three{
+        margin-left: 35px;
+    }
+}
+@media (max-width:475px){
+    .image1{
+        width: 370px;
+    }
+    .navbar{
+        margin-left: 0px;
+    }
+    #contact{
+        margin-left: 0px;
+    }
+   
+    .three{
+        margin-left: 0px;
+    }
+    .main{
+        width: 390px;
+    }
+}
+@media (max-width:400px){
+    #contact{
+        margin-left: 12px;
+    }
+    .main{
+        width: 350px;
+    }
+}
+@media (max-width:377px){
+    .navbar{
+        margin-left: 0px;
+    }
+    .image1{
+        width: 330px;
+    }
+}
+@media (max-width:356px){
+    #contact{
+        margin-left: 0px;
+    }
+    .three{
+        margin-left: 0px;
+    }
+}
+@media (max-width:350px){
+    .three{
+        padding: 110px 0px;
+    }
+}
+@media (max-width:318px){
+    #contact{
+        margin-left: 14px;
+    }
+    .main{
+        width: 300px;
+    }
+    .three{
+        margin-left: 10px;
+    }
+    .navbar{
+        margin-left: 12px;
+    }
+}
+@media (max-width:320px){
+    .attact{
+        margin-top: 622px;
+    }
+    #contact{
+        margin-left: 20px;
+    }
+    .three{
+        margin-left: 12px;
+        padding-bottom: 150px;
+    }
+    .twohead{
+        margin-top: 183px;
+    }
+    .navbar{
+        margin-left: 12px;
+    }
+}
+@media (max-width:302px){
+    #contact{
+        margin-left: 10x;
+        margin-top: 330px;
+    }
+    .three{
+        margin-left: 10px;
+    }
+    .navbar{
+        margin-left: 12px;
+    }
+    .rowdis{
+        display: none;
+    }
+}
